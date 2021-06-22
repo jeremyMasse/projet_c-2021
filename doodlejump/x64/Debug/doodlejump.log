@@ -1,0 +1,2 @@
+﻿  doodlejump.cpp
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML\Graphics.hpp' : No such file or directory

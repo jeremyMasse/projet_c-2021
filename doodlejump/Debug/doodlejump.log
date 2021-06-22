@@ -1,0 +1,27 @@
+﻿  doodlejump.cpp
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(52): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(104): warning C4305: '+=' : troncation de 'double' à 'float'
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(105): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(111): warning C4244: '-=' : conversion de 'float' en 'T', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(122): warning C4018: '>' : incompatibilité signed/unsigned
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(122): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(123): warning C4018: '>' : incompatibilité signed/unsigned
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(123): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(131): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+c:\users\jerem\documents\coursynov\2020_2021\c++\doodlejump\doodlejump\doodlejump.cpp(139): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+doodlejump.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) public: __thiscall sf::Sound::Sound(void)" (__imp_??0Sound@sf@@QAE@XZ) référencé dans la fonction _main
+doodlejump.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) public: virtual __thiscall sf::Sound::~Sound(void)" (__imp_??1Sound@sf@@UAE@XZ) référencé dans la fonction _main
+doodlejump.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) public: virtual void __thiscall sf::Sound::play(void)" (__imp_?play@Sound@sf@@UAEXXZ) référencé dans la fonction _main
+doodlejump.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) public: void __thiscall sf::Sound::setBuffer(class sf::SoundBuffer const &)" (__imp_?setBuffer@Sound@sf@@QAEXABVSoundBuffer@2@@Z) référencé dans la fonction _main
+doodlejump.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) public: __thiscall sf::SoundBuffer::SoundBuffer(void)" (__imp_??0SoundBuffer@sf@@QAE@XZ) référencé dans la fonction _main
+doodlejump.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) public: __thiscall sf::SoundBuffer::~SoundBuffer(void)" (__imp_??1SoundBuffer@sf@@QAE@XZ) référencé dans la fonction _main
+doodlejump.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) public: bool __thiscall sf::SoundBuffer::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@SoundBuffer@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) référencé dans la fonction _main
+C:\Users\jerem\Documents\CoursYnov\2020_2021\C++\doodlejump\Debug\doodlejump.exe : fatal error LNK1120: 7 externes non résolus
